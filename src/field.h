@@ -1,7 +1,7 @@
 #ifndef SRC_FIELD_H_
 #define SRC_FIELD_H_
 
-#include <stdio.h>
+#include <ncurses.h>
 #include <stdlib.h>
 
 #include "ship.h"
@@ -16,13 +16,12 @@ class Field {
 public:
 	Ship ship;
 	char field[HEIGHT][WIDTH];
-	//Alien aliens[20];
-	//Bullet bullets[10];
-
+	//TODO: Aliens
 	Field();
-	//~Field();
+	~Field();
 	void update_field();
 	void draw_field();
+	void clear_field();
 };
 
 #endif  // SRC_FIELD_H_
