@@ -3,7 +3,7 @@
 
 #include "bullet.h"
 
-#define MAX_NUM_OF_BULLETS 24
+#define MAX_NUM_OF_BULLETS 5
 
 class Ship {
 public:

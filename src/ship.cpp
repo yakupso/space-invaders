@@ -23,28 +23,5 @@ void Ship::move(int dir) {
 }
 
 void Ship::fire() {
-	bullets[Bullet::CURR_NUM_OF_BULLETS] = Bullet(x, y - 1);
+	bullets[Bullet::CURR_NUM_OF_BULLETS - 1] = Bullet(x, y + 2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -10,6 +10,7 @@ public:
 	Bullet();
 	Bullet(int x, int y);
 	~Bullet();
+	void remove();
 	void move();
 };
 

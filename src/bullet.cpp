@@ -16,7 +16,9 @@ Bullet::Bullet(int x_, int y_) {
 }
 
 //TODO: !
-Bullet::~Bullet() {
+Bullet::~Bullet() {}
+
+void Bullet::remove() {
 	CURR_NUM_OF_BULLETS--;
 }
 
